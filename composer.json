@@ -1,0 +1,38 @@
+{
+    "name": "sqits/laravel-gripp",
+    "description": "Laravel wrapper for the gripp api",
+    "keywords": ["laravel", "gripp", "gripp_connector"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Sqits",
+            "email": "info@sqits.nl",
+            "homepage": "https://www.sqits.nl",
+            "role": "Company"
+        },
+        {
+            "name": "Milan Jansen",
+            "email": "m.jansen@sqits.nl",
+            "homepage": "https://www.sqits.nl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "^5.6",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "sqits\\gripp\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "sqits\\gripp\\GrippServiceProvider"
+            ]
+        }
+    }
+}
