@@ -1,6 +1,6 @@
 <?php
 
-namespace Sqits\Gripp;
+namespace sqits\gripp;
 
 use GuzzleHttp\Client as GuzzleClient;
 
